@@ -5,8 +5,11 @@
 }
 
 body{
-    background: linear-gradient(to right, #085eaf, #00d6fc);
-    font-family: Arial, Helvetica, sans-serif;
+    /*background-image: radial-gradient(circle at center, rgb(66, 224, 34),rgb(0, 255, 255) );*/
+    /*background-image: url("images/pexels-nextvoyage-1470405.jpg");*/
+    /*background-size: cover;*/
+    background-image: linear-gradient(to top, grey,black);
+    font-family: Helvetica;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,7 +18,10 @@ body{
     width: 100%;
 }
 
-.container{
+
+
+
+.body-container{
     text-align: center;
 }
 
@@ -24,6 +30,7 @@ body{
     margin-bottom: 30px;
     position: relative;
     margin-top: 30px;
+    color: white;
 }
 
 .buttons{
@@ -109,4 +116,32 @@ body{
 ::-webkit-scrollbar-track{
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
+}
+
+.topbar{
+    position: fixed;
+    width: 100%;
+    /*background-color: aqua;*/
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000;
+    padding: 25px 200px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.middletopbar{
+    font: 2em Helvetica;
+    width: 300px;
+}
+
+.bio{
+    position: relative;
+    bottom: 450px;
+    font-size: 2em;
+    
+
 }
